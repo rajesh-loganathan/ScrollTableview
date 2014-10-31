@@ -22,6 +22,8 @@
 		18ABD5211967F10C0063AA25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ABD5001967F10C0063AA25 /* UIKit.framework */; };
 		18ABD5291967F10C0063AA25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18ABD5271967F10C0063AA25 /* InfoPlist.strings */; };
 		18ABD52B1967F10C0063AA25 /* ScrollTableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ABD52A1967F10C0063AA25 /* ScrollTableviewTests.m */; };
+		18ABD5371967FBEF0063AA25 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ABD5351967FBEF0063AA25 /* CustomTableViewCell.m */; };
+		18ABD5381967FBEF0063AA25 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18ABD5361967FBEF0063AA25 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		18ABD5261967F10C0063AA25 /* ScrollTableviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollTableviewTests-Info.plist"; sourceTree = "<group>"; };
 		18ABD5281967F10C0063AA25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18ABD52A1967F10C0063AA25 /* ScrollTableviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollTableviewTests.m; sourceTree = "<group>"; };
+		18ABD5341967FBEF0063AA25 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		18ABD5351967FBEF0063AA25 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		18ABD5361967FBEF0063AA25 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 				18ABD5111967F10C0063AA25 /* Main_iPad.storyboard */,
 				18ABD5141967F10C0063AA25 /* ViewController.h */,
 				18ABD5151967F10C0063AA25 /* ViewController.m */,
+				18ABD5341967FBEF0063AA25 /* CustomTableViewCell.h */,
+				18ABD5351967FBEF0063AA25 /* CustomTableViewCell.m */,
+				18ABD5361967FBEF0063AA25 /* CustomTableViewCell.xib */,
 				18ABD5171967F10C0063AA25 /* Images.xcassets */,
 				18ABD5031967F10C0063AA25 /* Supporting Files */,
 			);
@@ -234,6 +242,7 @@
 				18ABD5131967F10C0063AA25 /* Main_iPad.storyboard in Resources */,
 				18ABD5181967F10C0063AA25 /* Images.xcassets in Resources */,
 				18ABD5101967F10C0063AA25 /* Main_iPhone.storyboard in Resources */,
+				18ABD5381967FBEF0063AA25 /* CustomTableViewCell.xib in Resources */,
 				18ABD5071967F10C0063AA25 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +264,7 @@
 			files = (
 				18ABD5161967F10C0063AA25 /* ViewController.m in Sources */,
 				18ABD50D1967F10C0063AA25 /* AppDelegate.m in Sources */,
+				18ABD5371967FBEF0063AA25 /* CustomTableViewCell.m in Sources */,
 				18ABD5091967F10C0063AA25 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

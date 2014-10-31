@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CustomTableViewCell.h
 //  ScrollTableview
 //
 //  Created by Rajesh on 05/07/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface CustomTableViewCell : UITableViewCell
 
 @end
